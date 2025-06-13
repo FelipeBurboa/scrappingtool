@@ -877,7 +877,7 @@ async def get_catalogados_data():
 @app.post("/api/cencosud/catalogados")
 async def scrape_and_get_catalogados_data():
     """
-    POST: Ejecuta scraping de catalogados completo y retorna los datos actualizados
+    POST:Ejecuta scraping de catalogados completo y retorna los datos actualizados
     """
     try:
         print("POST /api/cencosud/catalogados - Ejecutando scraping optimizado...")
